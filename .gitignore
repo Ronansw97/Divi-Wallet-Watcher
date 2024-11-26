@@ -1,0 +1,9 @@
+# Environment files
+.env
+
+# Byte-compiled files
+__pycache__/
+*.pyc
+
+# Logs
+*.log
