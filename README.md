@@ -15,25 +15,26 @@ A Discord bot that monitors Divi staker wallets and sends real-time alerts whene
 
 ## Setup
 1. Clone this repository:
-
+   ```bash
    git clone https://github.com/Ronansw97/Divi-Wallet-Watcher.git
-
+   ```
 2. Install dependencies:
-
+   ```bash
    pip install -r requirements.txt
-
+   ```
 3. Configure environment variables in a `.env` file:
+   ```plaintext
    DISCORD_TOKEN=your_discord_bot_token
    ADMIN_USER_ID=your_admin_user_id
    WEBHOOK_URL=your_webhook_url
    MONGO_URI=mongodb://localhost:27017/
    CRYPTOID_API_KEY=your_crypto_id_api_key
-
+   ```
 
 4. Run the bot:
-
+   ```bash
    python code.py
-
+   ```
 
 ## License
 This project is licensed under the MIT License.
